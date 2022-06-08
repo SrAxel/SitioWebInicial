@@ -1,7 +1,7 @@
 *{font-family: helvetica;}
 
 body {
-    background-image: url(/imgs/fondo2.jpg) ;
+    background-image: url(../imgs/fondo2.jpg) ;
     background-size: cover;
 }
 
@@ -41,21 +41,21 @@ details {
 #datosPersonales {
     border: solid 2px #FFD365;
     padding: 2px;
-    background-image: url(/imgs/fondo11.jpg);
+    background-image: url(../imgs/fondo11.jpg);
     background-size: cover;
 }
 
 #formacionAcademica {
     border: solid 2px #FFD365;
     padding: 2px;
-    background-image: url(/imgs/fondo11.jpg);
+    background-image: url(../imgs/fondo11.jpg);
     background-size: cover;
 }
 
 #experienciaLaboral {
     border: solid 2px #FFD365;
     padding: 2px;
-    background-image: url(/imgs/fondo11.jpg);
+    background-image: url(../imgs/fondo11.jpg);
     background-size: cover;
 }
 
