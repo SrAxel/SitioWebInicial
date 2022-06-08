@@ -1,0 +1,61 @@
+*{font-family: helvetica;}
+
+body {
+    background-image: url(/imgs/Fondo2.jpg) ;
+    background-size: cover;
+}
+
+h1 {
+    background-color: #019267   ;
+    color: #FFD365; 
+    border:solid 2px #FFD365;
+    padding: 5px;
+}
+
+summary {
+    background-color: #019267;
+    border: solid 2px #FFD365;
+    color: #FFD365;
+    font-size: 25px;
+    padding: 5px;
+}
+
+p {
+    background-color: #019267;
+    border: solid 2px #FFD365;
+    color: #FFD365;
+    padding: 15px;
+}
+
+a {
+    font-size: 20px;
+    background-color: #019267;
+    border: solid 2px #FFD365;
+    color: #FFD365;
+    padding: 5px;
+}
+details {
+    font-size: 18px;
+}
+
+#datosPersonales {
+    border: solid 2px #FFD365;
+    padding: 2px;
+    background-image: url(/imgs/Fondo11.jpg);
+    background-size: cover;
+}
+
+#formacionAcademica {
+    border: solid 2px #FFD365;
+    padding: 2px;
+    background-image: url(/imgs/Fondo11.jpg);
+    background-size: cover;
+}
+
+#experienciaLaboral {
+    border: solid 2px #FFD365;
+    padding: 2px;
+    background-image: url(/imgs/Fondo11.jpg);
+    background-size: cover;
+}
+
