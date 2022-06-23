@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controles de formularios HTML</title>
+</head>
+<body bgcolor="#019267">
+    <h1>Prueba de Controles HTML</h1>
+    <h3 id="h3Ayuda"></h3>
+    <hr/>
+    <form action="../index.html" method="get">
+        <label for="txtNombre">Nombre: </label> <!--TextBox-->
+        <input type="text" name="txtNombre" id="txtNombre" placeholder="Escriba su Nombre aqui" required 
+        onfocus="cargarAyuda();">
+    <br/>
+        <label for="txtApellido">Apellido: </label> <!--TextBox-->
+        <input type="text" name="txtApellido" id="txtApellido" placeholder="Escriba su Apellido aqui" required
+        onfocus="cargarAyuda2();">
+    <br/>
+        <a>Casado: </a><label for="chkCasado"></label> <!--CheckBox-->
+        <input type="checkbox" name="chkCasado" id="chkCasado">
+    <br/>
+        <label for="datFechaNacimiento">Fecha de nacimiento: </label> <!--FechaBox-->
+        <input type="date" name="datFechaNacimiento" id="datFechaNacimiento" required>
+    <br/>
+        <label for="timHorarioTicket">Horario ticket: </label> <!--TiempoBox-->
+        <input type="time" name="timHorarioTicket" id="timHorarioTicket" required>
+    <br/>
+        <label for="txtEmail">Email: </label> <!--TextBox-->
+        <input type="email" name="txtEmail" id="txtEmail" required>
+    <br/>
+        <label for="txtPassword">Password: </label> <!--TextBox-->
+        <input type="password" name="txtPassword" id="txtPassword" required>
+    <br/>
+        <select name="cboLocalidad" id="cboLocalidad"> <!--OptionBox-->
+            <option value="1">San Justo</option>
+            <option value="2">Videla</option>
+            <option value="3">Luciano Leiva</option>
+            <option value="4">Gobernador Crespo</option>
+        </select>
+    <br/>
+        <input type="hidden" name="hidColor" value="black">
+        <label for="numHijos">Numero de Hijos</label>
+        <input type="number" name="numHijos" id="numHijos">
+    <br/>
+        <label for="radSexo">Sexo: </label>
+    <br/>
+            <label for="radMasculino">Masculino</label>
+            <input type="radio" name="radSexo" id="radMasculino" value="Masculino">
+    <br/>
+            <label for="radFemenino">Femenino</label>
+            <input type="radio" name="radSexo" id="radFemenino" value="Femenino">
+    <br/>
+            <label for="radPrefNoDecirlo">Pref. No Decirlo</label>
+            <input type="radio" name="radSexo" id="radPrefNoDecirlo" value="PrefNoDecirlo">
+    <br/>
+        <label for="filDocumento">Documento</label>
+        <input type="file" name="filDocumento" id="filDocumento">
+    <br/>
+        <label for="imgFoto">Foto o imagen</label>
+        <input type="image" src="../imgs/fondo5.jpg" name="imgFoto" id="imgFoto">
+    <br/>
+        
+        <label for="btnLimpiar">Resetear Valores:</label>
+        <input type="reset" name="btnLimpiar" value="Limpiar Formulario">
+        <input type="submit" value="Enviar">
+    </form>
+    <script src="../js/codigo.js"></script>
+</body>
+</html>
